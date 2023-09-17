@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.xhanii.gemnetenterprisesolution.Chooseaction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/home"
+            android:background="@drawable/home"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="-143dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/logout"
+            android:layout_below="@id/home"
+            android:background="@drawable/log"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="-61dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/remove"
+            android:background="@drawable/remove"
+            android:layout_marginLeft="-81dp"
+
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="80dp"
+            android:id="@+id/create_user"
+            android:layout_marginTop="48dp"
+            android:text="Create User"
+            android:drawableTop="@drawable/ic_create"
+            android:drawablePadding="-8dp"
+            android:background="#1f3bb9"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="2dp"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:paddingTop="2dp" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="200dp"
+            android:id="@+id/report"
+            android:layout_marginTop="133dp"
+            android:text="Report"
+            android:drawableTop="@drawable/ic_view1"
+            android:drawablePadding="54dp"
+            android:background="#583016"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="4dp"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:paddingTop="62dp" />
+
+        <FrameLayout
+            android:layout_width="164dp"
+            android:layout_height="161dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-248dp"
+            android:layout_marginTop="6dp">
+
+            <Button
+                android:id="@+id/bVio"
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:background="#6e6868"
+                android:text="Total Amount"
+                android:paddingTop="140dp"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"></Button>
+
+            <TextView
+                android:id="@+id/bVio_count"
+                android:layout_width="200dp"
+                android:layout_height="165dp"
+                android:text="983"
+                android:textSize="55dp"
+                android:elevation="10dp"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingLeft="55dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="253dp"
+            android:layout_marginLeft="-247dp">
+
+            <Button
+                android:id="@+id/user"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#6e6868"
+                android:text="Show User"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                android:paddingTop="62dp"></Button>
+
+            <TextView
+                android:id="@+id/user_count"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="0"
+                android:textSize="30dp"
+                android:elevation="5dp"
+                android:layout_gravity="center"
+                android:paddingLeft="32dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingTop="15dp" />
+
+        </FrameLayout>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/user_balance"
+            android:text="User Balance"
+            android:background="#3485d7"
+            android:drawablePadding="0dp"
+            android:drawableTop="@drawable/ic_user_blance1"
+            android:textColor="@android:color/white"
+            android:textSize="9dp"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="134dp"
+            android:layout_marginLeft="2dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/con_user"
+            android:text="Connected User"
+            android:background="#402781"
+            android:drawableTop="@drawable/ic_connected_user"
+            android:textColor="@android:color/white"
+            android:textSize="8dp"
+            android:drawablePadding="0dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="134dp"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="81dp"
+            android:id="@+id/gen_inv"
+            android:text="Generate Invoice"
+            android:drawableTop="@drawable/ic_invoince"
+            android:drawablePadding="-5dp"
+            android:background="#1f3bb9"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="7dp"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="-6dp" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="81dp"
+            android:id="@+id/notific"
+            android:text="Notification"
+            android:drawableTop="@drawable/ic_notification1"
+            android:drawablePadding="-5dp"
+            android:background="#6e6868"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="4dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="-7dp" />
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="81dp"
+            android:id="@+id/view_user_complaint"
+            android:text="View User Complaints"
+            android:drawableTop="@drawable/ic_complaints"
+            android:drawablePadding="-5dp"
+            android:background="#3485d7"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+
+            android:textAlignment="viewStart"
+            android:paddingLeft="4dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginLeft="3dp" />
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="91dp"
+            android:id="@+id/search_user"
+            android:text="Search User"
+            android:drawableTop="@drawable/ic_search_user"
+            android:drawablePadding="-5dp"
+            android:background="#402781"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="-398dp"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:paddingTop="7dp"
+            android:layout_marginTop="87dp" />
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="87dp"
+            android:id="@+id/active_user"
+            android:text="Active User"
+            android:drawableTop="@drawable/ic_invoince"
+            android:drawablePadding="-5dp"
+            android:background="#1f3bb9"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="-204dp"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:layout_marginTop="175dp" />
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="91dp"
+            android:id="@+id/shw_user"
+            android:text="Show User"
+            android:drawableTop="@drawable/ic_invoince"
+            android:drawablePadding="-5dp"
+            android:background="#583016"
+            android:textColor="@android:color/white"
+            android:textSize="10dp"
+            android:textAlignment="viewStart"
+            android:paddingTop="7dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="87dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
